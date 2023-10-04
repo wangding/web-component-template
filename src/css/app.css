@@ -1,0 +1,111 @@
+blockquote,
+body,
+button,
+dd,
+div,
+dl,
+dt,
+h1, h2, h3, h4, h5, h6,
+input,
+li, ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  line-height: 24px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+did-header {
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  color: #555;
+  height: 93px;
+  display: flex;
+  justify-content: space-between;
+  min-height: 93px;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex: auto;
+}
+
+did-menu {
+  flex: 0 0 150px;
+  background-color: #f8f8f8;
+}
+
+change-pwd {
+  width: 100%;
+  height: 100%;
+  background-color: #eee;
+}
+
+* {
+  user-select: none;
+}
+
+span.required {
+  color: red;
+  width: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+input[type="submit"] {
+  width: 80px;
+  height: 38px;
+  padding: 0;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+.dialog-box input[type="email"] {
+  height: 36px;
+  width: 210px;
+  margin: 10px 0;
+  outline: none;
+  padding-left: 10px;
+  border: 1px solid #d2d2d2;
+}
+
+form {
+  box-sizing: border-box;
+  padding: 20px;
+  min-width: 400px;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+}
+
+label {
+  height: 20px;
+  display: inline-block;
+}
+
+.hide {
+  display: none !important;
+}
